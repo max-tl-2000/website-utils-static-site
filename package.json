@@ -1,0 +1,56 @@
+{
+    "name": "cms-customerold-demo",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@auth0/auth0-spa-js": "^1.7.0",
+        "@contentful/rich-text-html-renderer": "^13.4.0",
+        "@contentful/rich-text-react-renderer": "^13.4.0",
+        "@contentful/rich-text-types": "^14.1.0",
+        "@material-ui/styles": "^4.9.10",
+        "@redisrupt/website-utils": "^7.0.132",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.1.2",
+        "@types/jest": "^24.9.1",
+        "@types/node": "^13.13.4",
+        "@types/react": "^16.9.34",
+        "@types/react-dom": "^16.9.7",
+        "axios": "^0.19.2",
+        "query-string": "^6.12.1",
+        "react": "^16.13.1",
+        "react-contentful": "^2.0.7",
+        "react-dom": "^16.13.1",
+        "react-redux": "^7.2.0",
+        "react-router": "^5.1.2",
+        "react-router-dom": "^5.1.2",
+        "react-router-hooks": "^1.0.1",
+        "react-scripts": "^3.4.1",
+        "redux": "^4.0.5",
+        "redux-promise": "^0.6.0",
+        "redux-thunk": "^2.3.0",
+        "typescript": "^3.8.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "deploy:dev": "netlify build && netlify deploy",
+        "deploy:prod": "netlify build && netlify deploy --prod"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

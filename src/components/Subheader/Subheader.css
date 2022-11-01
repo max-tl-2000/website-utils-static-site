@@ -1,0 +1,11 @@
+#header {
+  background: rgba(255,255,255,.8);
+}
+
+.homeHeader .navigationLinks a {
+  color: #000;
+}
+
+.searchBoxWrapper {
+  max-width: 650px;
+}

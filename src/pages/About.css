@@ -1,0 +1,53 @@
+/* TEMP WILL BE BROKEN UP */
+
+.image--header {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  left: 0;
+}
+
+.ui-image-main-image {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+h2 {
+  color: #0b3d60;
+  text-align: center;
+  font-family: bree-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 44px;
+  letter-spacing: 0em;
+  line-height: 1.7em;
+  text-transform: none;
+}
+
+h2:before {
+  content: " ";
+  display: block;
+  background: #c3c1c1;
+  width: 50px;
+  height: 6px;
+  margin: 0 auto 15px;
+}
+
+hr {
+  margin: 24px 0;
+}
+
+.ui-sub-nav-item h2, .ui-sub-nav-item {
+  color: white;
+}
